@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1043px;
+  min-height: 1020px;
 }
 
 .u-section-1 .u-text-1 {
@@ -21,7 +21,7 @@
 .u-section-1 .u-image-1 {
   width: 540px;
   height: 601px;
-  margin: 20px auto 60px;
+  margin: 20px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -44,7 +44,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 820px;
+    min-height: 797px;
   }
 
   .u-section-1 .u-text-1 {
@@ -56,7 +56,7 @@
     height: 378px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 80px;
+  min-height: 40px;
 }
 
 .u-block-437c-56:not([data-block-selected]):not([data-cell-selected]),

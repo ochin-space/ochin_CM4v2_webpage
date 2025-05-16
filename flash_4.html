@@ -28,7 +28,7 @@
     <meta property="og:description" content="ochin_CM4v2 is a compact, feature-rich carrier board designed for the Raspberry Pi CM4, ideal for real-world embedded applications.">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="./" data-include-products="false" class="u-body u-overlap u-overlap-contrast u-overlap-transparent u-xl-mode" data-lang="en"><header class="u-clearfix u-header" id="header"><div class="u-clearfix u-sheet u-sheet-1">
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-overlap u-overlap-contrast u-overlap-transparent u-stick-footer u-xl-mode" data-lang="en"><header class="u-clearfix u-header" id="header"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="./" data-page-id="20200027" class="u-image u-logo u-image-1" data-image-width="184" data-image-height="100" title="ochin_CM4v2">
           <img src="images/logo_w.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -65,11 +65,11 @@
         </nav>
       </div></header>
     <section class="skrollable u-clearfix u-parallax u-uploaded-video u-section-1" id="carousel_2c9f" data-image-width="1980" data-image-height="1317">
-      <div class="u-clearfix u-sheet u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-sheet-1">
-        <h1 class="u-align-center u-custom-font u-text u-text-default u-text-font u-text-1"> Connect the CM4 to the PC</h1>
-        <p class="u-align-center u-text u-text-default u-text-2"> Connect the ochin_CM4v2 to your PC using a USB Type-C data cable.<br> You should hear a connection sound, though no device will appear initially.<br> Launch the official rpiboot software. Once the necessary drivers are loaded, a new storage device will appear.<br> You can now flash the Raspberry Pi image to this memory device, just as you would with a microSD card.
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-align-center u-custom-font u-text u-text-default-lg u-text-default-xl u-text-font u-text-1"> Connect the CM4 to the PC</h1>
+        <p class="u-align-center u-text u-text-default-lg u-text-default-md u-text-default-xl u-text-2"> Connect the ochin_CM4v2 to your PC using a USB Type-C data cable.<br> You should hear a connection sound, though no device will appear initially.<br> Launch the official rpiboot software. Once the necessary drivers are loaded, a new storage device will appear.<br> You can now flash the Raspberry Pi image to this memory device, just as you would with a microSD card.
         </p>
-        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/image15.png" alt="" data-image-width="612" data-image-height="301">
+        <img class="u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/image15.png" alt="" data-image-width="612" data-image-height="301">
         <p class="u-align-center u-text u-text-default u-text-3">At this point, the CM4 module is powered, connected to your PC, and recognized as a storage device.
 Flashing the image is the same process as with a microSD card on other Raspberry Pi models.
 The recommended method is to use the official Raspberry Pi Imager software, which allows you to select the desired image and preconfigure settings such as login credentials, WiFi connection, and other useful parameters.<br>Once the Raspberry Pi CM4 image as been flashed to the eMMC it is possible to reboot the board and start the OS. Since the USB Vbus it is used to switch the bus between the USB type-C port and the USB HUB, it is important that the USB type-C cable is removed from the board after the flash of the eMMC. <br>On the Raspberry Pi CM4 the USB is disabled by default. In oder to use the USB bus it is necessary to enable it inside of the "boot/config.txt" file, adding the following line at the end: <br>dtoverlay=dwc2,dr_mode=host&nbsp; &nbsp;<br>

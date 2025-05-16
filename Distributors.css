@@ -4,14 +4,14 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 986px;
+  min-height: 876px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
   font-size: 4.5rem;
   font-family: "Open Sans", sans-serif;
-  margin: 135px auto 0;
+  margin: 120px auto 0;
 }
 
 .u-section-1 .u-image-1 {
@@ -166,7 +166,7 @@
 }
 
 .u-section-1 .u-text-12 {
-  margin: 29px auto 51px 474px;
+  margin: 29px auto 0 474px;
 }
 
 @media (max-width: 1199px) {
@@ -517,7 +517,7 @@
     margin-left: 44px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 100px;
+  min-height: 40px;
 }
 
 .u-block-b3df-56:not([data-block-selected]):not([data-cell-selected]),
