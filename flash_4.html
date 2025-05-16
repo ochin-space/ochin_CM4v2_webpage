@@ -44,6 +44,7 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Documentation.html" style="padding: 10px 20px;">Documentation</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Links.html" style="padding: 10px 20px;">Links</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Distributors.html" style="padding: 10px 20px;">Distributors</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contacts.html" style="padding: 10px 20px;">Contacts</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
@@ -54,6 +55,7 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Documentation.html">Documentation</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Links.html">Links</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Distributors.html">Distributors</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacts.html">Contacts</a>
 </li></ul>
               </div>
             </div>
@@ -66,11 +68,11 @@
         <h1 class="u-align-center u-custom-font u-text u-text-default u-text-font u-text-1"> Connect the CM4 to the PC</h1>
         <p class="u-align-center u-text u-text-default u-text-2"> Connect the ochin_CM4v2 to your PC using a USB Type-C data cable.<br> You should hear a connection sound, though no device will appear initially.<br> Launch the official rpiboot software. Once the necessary drivers are loaded, a new storage device will appear.<br> You can now flash the Raspberry Pi image to this memory device, just as you would with a microSD card.
         </p>
-        <img class="u-image u-image-contain u-image-default u-image-1" src="images/image15.png" alt="" data-image-width="612" data-image-height="301">
+        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/image15.png" alt="" data-image-width="612" data-image-height="301">
         <p class="u-align-center u-text u-text-default u-text-3">At this point, the CM4 module is powered, connected to your PC, and recognized as a storage device.
 Flashing the image is the same process as with a microSD card on other Raspberry Pi models.
 The recommended method is to use the official Raspberry Pi Imager software, which allows you to select the desired image and preconfigure settings such as login credentials, WiFi connection, and other useful parameters.<br>Once the Raspberry Pi CM4 image as been flashed to the eMMC it is possible to reboot the board and start the OS. Since the USB Vbus it is used to switch the bus between the USB type-C port and the USB HUB, it is important that the USB type-C cable is removed from the board after the flash of the eMMC. <br>On the Raspberry Pi CM4 the USB is disabled by default. In oder to use the USB bus it is necessary to enable it inside of the "boot/config.txt" file, adding the following line at the end: <br>dtoverlay=dwc2,dr_mode=host&nbsp; &nbsp;<br>
-        </p>
+        </p><span class="u-file-icon u-flip-horizontal u-icon u-icon-1" data-href="flash_3.html" data-page-id="94858993" title="flash_3"><img src="images/149114.png" alt=""></span>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-container-align-center u-section-2" id="sec-7b4c">
@@ -99,7 +101,13 @@ background-color: #2e343f !important
     
     
     <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="footer"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">© perniciousflier -&nbsp;ochin_CM4 v2</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">© perniciousflier-&nbsp;ochin_CM4 v2</p>
       </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <p class="u-text"><span>This site was created with the </span>
+        <a class="u-link" href="https://nicepage.com/" target="_blank" rel="nofollow"><span>Nicepage</span>
+        </a>
+      </p>
+    </section>
   
 </body></html>

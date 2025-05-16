@@ -63,16 +63,31 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 728px;
+    min-height: 876px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
+    width: auto;
+    margin-top: 109px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 22px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-image-1 {
-    width: 340px;
     height: 200px;
+    margin-top: 22px;
+    margin-bottom: -31px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 100px;
