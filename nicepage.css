@@ -44784,7 +44784,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 124px;
   height: 67px;
-  margin: 12px auto 0 -62px;
+  margin: 11px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -44810,7 +44810,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    margin-top: 11px;
     margin-left: -28px;
   }
 
