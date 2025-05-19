@@ -666,6 +666,11 @@
   margin: 9px 19px 0 57px;
 }
 
+.u-section-3 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-3 .u-list-item-3 {
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
@@ -691,7 +696,7 @@
   margin: -39px 0 0 56px;
 }
 
-.u-section-3 .u-btn-1 {
+.u-section-3 .u-btn-2 {
   background-image: none;
   padding: 0;
 }
