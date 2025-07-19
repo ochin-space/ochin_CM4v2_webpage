@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://ochin.cloud/sitemap.xml
