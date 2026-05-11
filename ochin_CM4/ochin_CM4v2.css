@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(to bottom, rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25), rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25)), url('np://user.desktop.nicepage.com/Site_1950625723/images/IMG_20210124_164344.jpg?rand=3d83');
+  background-image: linear-gradient(to bottom, rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25), rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25)), url('../images/IMG_20210124_164344.jpg');
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
 }
