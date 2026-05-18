@@ -31,13 +31,13 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 305px;
+    min-height: 325px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 229px;
+    min-height: 244px;
   }
 
   .u-section-1 .u-text-1 {

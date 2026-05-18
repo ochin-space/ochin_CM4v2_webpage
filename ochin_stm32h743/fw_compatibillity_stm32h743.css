@@ -265,8 +265,9 @@
   .u-section-2 .u-image-2 {
     height: 214px;
     margin-top: 12px;
-    margin-right: 283px;
-    margin-left: auto;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-2 .u-image-3 {
