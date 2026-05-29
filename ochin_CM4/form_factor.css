@@ -66,12 +66,13 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 100vh;
+    min-height: 948px;
   }
 
   .u-section-1 .u-group-elements-1 {
     width: 340px;
     min-height: 778px;
+    margin-bottom: 50px;
   }
 
   .u-section-1 .u-text-1 {

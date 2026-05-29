@@ -52,11 +52,12 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 991px;
+    min-height: 1133px;
   }
 
   .u-section-1 .u-group-elements-1 {
     width: 540px;
+    margin-bottom: 60px;
   }
 
   .u-section-1 .u-text-1 {
@@ -66,12 +67,13 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 100vh;
+    min-height: 836px;
   }
 
   .u-section-1 .u-group-elements-1 {
     width: 340px;
     min-height: 681px;
+    margin-bottom: 35px;
   }
 
   .u-section-1 .u-text-1 {

@@ -87,10 +87,25 @@
 
   .u-section-1 .u-group-elements-1 {
     width: 540px;
+    min-height: 1344px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 404px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -51px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -116,9 +131,9 @@
   .u-section-1 .u-image-1 {
     height: 208px;
     margin-top: 30px;
+    width: auto;
     margin-right: initial;
     margin-left: initial;
-    width: auto;
   }
 
   .u-section-1 .u-image-2 {
