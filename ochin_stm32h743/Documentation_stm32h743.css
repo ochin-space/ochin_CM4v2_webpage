@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-position: 50% 50%, 50% 50%;
+  background-position: 50% 50%;
   background-size: cover, cover;
 }
 
@@ -227,12 +227,6 @@
 
   .u-section-1 .u-list-item-7 {
     --top-right-radius: 20px;
-  }
-}
-
-@media (max-width: 991px) {
-   .u-section-1 {
-    background-position: 50% 50%;
   }
 }
 
