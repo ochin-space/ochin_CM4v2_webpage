@@ -2,6 +2,7 @@
   background-image: linear-gradient(to bottom, rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25), rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25)), url('../images/IMG_20210124_164344.jpg');
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -36,6 +37,10 @@
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    background-position: 50% 50%, 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 324px;
   }
@@ -543,13 +548,13 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 1216px;
+  min-height: 1188px;
 }
 
 .u-section-3 .u-image-1 {
-  width: 363px;
-  height: 471px;
-  margin: 0 auto;
+  width: 320px;
+  height: 415px;
+  margin: 27px auto 0;
 }
 
 .u-section-3 .u-text-1 {
@@ -766,7 +771,7 @@
 .u-section-3 .u-text-14 {
   font-size: 2.25rem;
   width: 599px;
-  margin: 57px 271px;
+  margin: 57px auto 58px;
 }
 
 .u-section-3 .u-btn-3 {
@@ -913,14 +918,23 @@
     margin-right: 11px;
     margin-left: 60px;
   }
-
-  .u-section-3 .u-text-14 {
-    margin-left: 171px;
-    margin-right: 171px;
-  }
 }
 
 @media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 1518px;
+  }
+
+  .u-section-3 .u-image-1 {
+    width: 263px;
+    height: 341px;
+    margin-top: 20px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 20px;
+  }
+
   .u-section-3 .u-repeater-1 {
     grid-auto-columns: calc(50% - 13px);
     grid-template-columns: repeat(2, calc(50% - 13px));
@@ -1034,16 +1048,22 @@
   .u-section-3 .u-text-13 {
     margin-left: 11px;
   }
-
-  .u-section-3 .u-text-14 {
-    margin-left: 61px;
-    margin-right: 61px;
-  }
 }
 
 @media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 1531px;
+  }
+
+  .u-section-3 .u-image-1 {
+    width: 232px;
+    height: 252px;
+    margin-top: 41px;
+  }
+
   .u-section-3 .u-text-1 {
     width: 540px;
+    margin-top: 36px;
   }
 
   .u-section-3 .u-icon-1 {
@@ -1120,23 +1140,23 @@
 
   .u-section-3 .u-text-14 {
     font-size: 2rem;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1186px;
+    min-height: 1965px;
   }
 
   .u-section-3 .u-image-1 {
-    width: 340px;
-    height: 441px;
+    width: 212px;
+    height: 231px;
+    margin-top: 29px;
   }
 
   .u-section-3 .u-text-1 {
     width: 340px;
+    margin-top: 29px;
   }
 
   .u-section-3 .u-repeater-1 {
