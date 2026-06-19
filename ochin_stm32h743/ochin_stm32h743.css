@@ -2,7 +2,6 @@
   background-image: linear-gradient(to bottom, rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25), rgba(var(--custom-color-6-r), var(--custom-color-6-g), var(--custom-color-6-b), 0.25)), url('../images/IMG_20210124_164344.jpg');
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -13,7 +12,24 @@
   font-size: 4.5rem;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
-  margin: 120px auto 60px;
+  margin: 120px auto 0;
+}
+
+.u-section-1 .u-group-elements-1 {
+  width: 119px;
+  min-height: 64px;
+  height: auto;
+  margin: -71px 85px 60px auto;
+}
+
+.u-section-1 .u-icon-1 {
+  width: 64px;
+  height: 64px;
+  margin: 0 55px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -29px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -28,11 +44,25 @@
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
   }
+
+  .u-section-1 .u-group-elements-1 {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 991px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
-    min-height: 325px;
+    min-height: 424px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    margin-top: 27px;
+    margin-right: auto;
+    margin-bottom: 0;
   }
 }
 
@@ -41,23 +71,32 @@
     background-position: 50% 50%, 50% 50%;
   }
 
-  .u-section-1 .u-sheet-1 {
-    min-height: 324px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 3rem;
     margin-top: 140px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    margin-top: 19px;
+    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 359px;
+    min-height: 480px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
+    width: auto;
+    margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    margin-top: 41px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 639px;
@@ -323,12 +362,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 2253px;
+    min-height: 2374px;
   }
 
   .u-section-2 .u-list-1 {
-    margin-top: -156px;
-    margin-bottom: 33px;
+    margin-top: -145px;
+    margin-bottom: 60px;
   }
 
   .u-section-2 .u-repeater-1 {
